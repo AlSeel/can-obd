@@ -38,11 +38,12 @@ enviroment was adapted to project spicific needs.
 4. Load linux modules.
 
       `modprobe can`
+      
       `insmod /lib/modules/$(uname -r)/extra/net/can/can-obd.ko`
    
 5. Set up can interface.
 
-      use `ip link` tool to configur can interface (starting can interface, setting baud rate)
+      use `ip link` tool to configur can interface (starting can interface, setting baud rate). 
       OBD supports either 250 kbit/s or 500 kbit/s.
      
 
